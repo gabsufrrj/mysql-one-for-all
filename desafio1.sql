@@ -12,9 +12,9 @@ CREATE TABLE SpotifyClone.plans(
 INSERT INTO SpotifyClone.plans (plan_name, price)
 VALUES 
 ('gratuito', '0.00'),
-('universitario', '5.99'),
-('pessoal', '6.99'),
-('familiar', '7.99');
+('familiar', '7.99'),
+('universitário', '5.99'),
+('pessoal', '6.99');
 
 CREATE TABLE SpotifyClone.artists(
 	artist_id INT AUTO_INCREMENT NOT NULL,
